@@ -1,0 +1,90 @@
+@font-face{
+    font-family: myFont;
+    src:url(./font/hemi.ttf.otf)
+}
+body{
+    background-image: url(videos/Home\ Background.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+    font-family: myFont;
+}
+li:hover{
+    transition: 200ms;
+    color:red;
+    text-decoration: underline;
+}
+li{
+    list-style: none; 
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: myFont;
+    text-decoration: none;
+}
+
+button{
+    background-color:red; 
+    margin-left: 10px; 
+    border-radius: 6px;
+    padding: 10px; 
+    width: 90px;
+    font-family: myFont; 
+}
+audio{
+    display: none;
+}
+img{
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 379px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 8px 30px;
+    position: sticky;
+    top: 0px;
+}
+#left{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    align-items: normal;
+    margin-left: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#center{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: myFont;
+    font-size: 20px;
+    margin-left: 823px;
+}
+#right{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#abc{
+    color: white;
+    font-size: 15px;
+}
+
+#efg{
+    color: white;
+    font-size: 15px;
+} 
